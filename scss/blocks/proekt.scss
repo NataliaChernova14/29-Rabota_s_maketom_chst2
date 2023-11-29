@@ -1,0 +1,78 @@
+@import '../variables';
+
+.proekt {
+    position: relative;
+
+    &_title {
+
+        font-size: 16px;
+        max-width: 713px;
+        max-height: 135px;
+        color: $GrayscaleBlack;
+
+        &::after {
+            position: absolute;
+            content: '';
+            top: 10px;
+            left: 110px;
+            width: 530px;
+            height: 2px;
+            background: #000;
+        }
+    }
+
+    &_title2 {
+        font-weight: bold;
+        font-size: 36px;
+        max-width: 713px;
+        max-height: 135px;
+        color: $GrayscaleBlack;
+        margin-bottom: 50px;
+    }
+
+    &_t {
+        padding: 0 0 190px;
+        text-align: justify;
+        font-size: 18px;
+        max-width: 655px;
+        max-height: 145px;
+        color: $Grayscale50;
+
+    }
+
+    .proekt_block {
+        display: grid;
+        max-width: 1200px;
+        max-height: 460px;
+        background: $PrimaryBlue100;
+        color: #fff;
+        grid-template-columns: 50% 50%;
+        grid-column-gap: 120px;
+        grid-row-gap: 25px;
+        padding: 70px;
+
+        .proekt_img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+    .proekt_o2 {
+        margin-left: 500px;
+        padding: 85px 50px 85px;
+
+    }
+
+    .button {
+        display: inline-block;
+        background: $PrimaryBlue100;
+        width: 175px;
+        height: 50px;
+        padding: 15px;
+        color: #fff;
+        font-size: 14px;
+        text-align: center;
+
+    }
+
+}

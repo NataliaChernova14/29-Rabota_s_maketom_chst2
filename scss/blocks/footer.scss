@@ -1,0 +1,121 @@
+@import '../variables';
+
+footer {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+}
+
+.container_footer {
+  background: $PrimaryBlue100;
+  height: 470px;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: justify;
+
+
+
+}
+
+.container_row {
+  width: 1200px;
+  margin: 0 auto;
+
+  display: grid;
+
+  grid-template-columns: 50% 30%;
+  grid-column-gap: 120px;
+  grid-row-gap: 25px;
+  padding: 70px 0;
+
+  .footer_text {
+    grid-column: 1;
+
+  }
+
+  .footer_logo {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 170%;
+    grid-column: 1;
+    padding: 70px 0;
+  }
+
+  .footer-text2 {
+    grid-column: 2;
+    grid-row: 2;
+    padding: 70px 0;
+
+  }
+
+
+
+  .konsul {
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 1.1rem;
+    color: #fff;
+
+    
+
+
+    .zayavka {
+      display: flex;
+      flex-direction: column;
+
+      .konsul__input::-webkit-input-placeholder  {
+        font-size: 1.1rem;
+          color: #fff;
+      }
+
+
+
+      #name {
+        width: 100%;
+        margin: 0px 0px 20px 0px;
+        background: none;
+
+        line-height: 400%;
+        #placeholder {
+          font-size: 1.1rem;
+          color: #fff;
+    
+        }
+
+
+
+      }
+
+      #tel {
+        width: 100%;
+        margin: 0px 0px 20px 0px;
+        background: none;
+
+        line-height: 400%;
+
+
+
+      }
+
+      
+
+      .konsul_button {
+
+        background: #fff;
+        width: 230px;
+        height: 50px;
+        padding: 15px;
+        color: $GrayscaleBlack;
+        font-size: 14px;
+        text-align: center;
+      }
+    }
+
+
+  }
+
+
+
+
+}
